@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: imademethink_cucumber_advanced_reporting.MasterRunnerMaven.MasterRunnerFor_SimpleFeatureFile
+-------------------------------------------------------------------------------
+Tests run: 38, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.18 sec <<< FAILURE! - in imademethink_cucumber_advanced_reporting.MasterRunnerMaven.MasterRunnerFor_SimpleFeatureFile
+But Cookies should not be deleted(Scenario: User log out)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: Log::  ********** cookies_getting_deleted_due_to_some_isses
+	at org.junit.Assert.fail(Assert.java:88)
+	at imademethink_cucumber_advanced_reporting.StepImplimentations.StepImplementation_CucumberProject.cookies_should_not_be_deleted(StepImplementation_CucumberProject.java:62)
+	at imademethink_cucumber_advanced_reporting.StepDefinitions.StepDefinitions_CucumberProject.cookies_should_not_be_deleted(StepDefinitions_CucumberProject.java:79)
+	at ?.But Cookies should not be deleted(SimpleFeatureFile2.feature:8)
+
+Scenario: User log out  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: Log::  ********** cookies_getting_deleted_due_to_some_isses
+	at org.junit.Assert.fail(Assert.java:88)
+	at imademethink_cucumber_advanced_reporting.StepImplimentations.StepImplementation_CucumberProject.cookies_should_not_be_deleted(StepImplementation_CucumberProject.java:62)
+	at imademethink_cucumber_advanced_reporting.StepDefinitions.StepDefinitions_CucumberProject.cookies_should_not_be_deleted(StepDefinitions_CucumberProject.java:79)
+	at ?.But Cookies should not be deleted(SimpleFeatureFile2.feature:8)
+

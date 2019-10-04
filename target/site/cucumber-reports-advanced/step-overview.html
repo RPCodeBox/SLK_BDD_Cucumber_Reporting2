@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cucumber-JVM Html Reports - Step Overview</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+
+<script type="text/javascript" src="highcharts.js"></script>
+<script type="text/javascript" src="highcharts-3d.js"></script>
+
+<link rel="stylesheet" href="bootstrap.min.css" type="text/css"/>
+
+<link rel="stylesheet" href="reporting.css" type="text/css"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#tablesorter").tablesorter();
+});
+</script>
+
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-jvm Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-6">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>imademethink_cucumber_advanced_reporting</td>
+                          <td>885</td>
+                        <td>08 Apr 2019, 16:03</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="title">
+  <h2>Step Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+
+<div class="container-fluid" id="report-details">
+  <table id="tablesorter" class="stats-table">
+
+    <thead>
+      <tr class="header">
+        <th id="stats-header-feature">Implementation</th>
+        <th id="stats-header-occurrences">Occurrences</th>
+        <th id="stats-header-duration">Duration</th>
+        <th id="stats-header-average">Average</th>
+        <th id="stats-header-status">Ratio</th>
+      </tr>
+    </thead>
+
+    <tbody>
+              <tr>
+                    
+          <td class="tagname">StepDefinitions_CucumberProject.web_application_is_in_running_state()</td>
+          <td>5</td>
+          <td class="duration-format">081ms</td>
+          <td class="duration-format">016ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">StepDefinitions_CucumberProject.user_launches_following_browser(String)</td>
+          <td>3</td>
+          <td class="duration-format">001ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">StepDefinitions_CucumberProject.cookies_should_not_be_deleted()</td>
+          <td>1</td>
+          <td class="duration-format">001ms</td>
+          <td class="duration-format">001ms</td>
+          <td class="failed">0.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">StepDefinitions_CucumberProject.user_log_out_should_be_successful()</td>
+          <td>1</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">StepDefinitions_CucumberProject.web_browser_is_launched()</td>
+          <td>5</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">StepDefinitions_CucumberProject.user_is_already_logged_in()</td>
+          <td>2</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">StepDefinitions_CucumberProject.home_page_title_validation_should_be_successful()</td>
+          <td>3</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">StepDefinitions_CucumberProject.user_verifies_home_page_title()</td>
+          <td>3</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">StepDefinitions_CucumberProject.login_should_be_successful()</td>
+          <td>1</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">StepDefinitions_CucumberProject.valid_user_name_and_password_is_used()</td>
+          <td>1</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">StepDefinitions_CucumberProject.user_clicks_on_logout_button()</td>
+          <td>1</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">StepDefinitions_CucumberProject.home_page_is_launched()</td>
+          <td>1</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">StepDefinitions_CucumberProject.register_option_should_not_be_visible()</td>
+          <td>1</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">StepDefinitions_CucumberProject.when_user_edits_address()</td>
+          <td>1</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">StepDefinitions_CucumberProject.editing_address_should_be_possible()</td>
+          <td>1</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">StepDefinitions_CucumberProject.following_fields_should_be_shown_username_and_password()</td>
+          <td>1</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">StepDefinitions_CucumberProject.click_on_login()</td>
+          <td>1</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+          </tbody>
+
+    <tfoot>
+      <tr>
+        <td>17</td>
+        <td>32</td>
+        <td class="duration-format">085ms</td>
+        <td class="duration-format">002ms</td>
+        <td>Totals</td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+      <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+      <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Cucumber-JVM Reports</a>
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
